@@ -93,7 +93,7 @@ elif single_review:
         "text" : single_review,
         "score" : result.lower()
     }
-    collection_name.insert(data)
+    collection_name.insert_one(data)
 
     if result.lower()=='positive':
         st.write("""# Great Work there! You got a Positive Review 😃""")
