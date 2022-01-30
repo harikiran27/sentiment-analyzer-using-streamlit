@@ -3,3 +3,4 @@ streamlit
 transformers
 pandas
 plotly
+pymongo
