@@ -4,3 +4,4 @@ transformers
 pandas
 plotly
 pymongo
+dnspython
