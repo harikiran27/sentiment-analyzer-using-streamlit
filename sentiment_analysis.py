@@ -30,7 +30,7 @@ def analyse_sentiment(test_sentence):
 import pymongo
 connect_string = 'mongodb+srv://admin:admin@cluster0.n7nsv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' 
 
-from django.conf import settings
+
 my_client = pymongo.MongoClient(connect_string)
 
 # First define the database name
